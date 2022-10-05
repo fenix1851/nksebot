@@ -102,7 +102,7 @@ const init = async (bot) =>{
     return bot
 }
 
-init(new Telegraf(TEST_TOKEN, { polling: true }), process.env).
+init(new Telegraf(BOT_TOKEN, { polling: true }), process.env).
 then(async(bot)=> {
     await bot.launch()
     console.log(`Launched ${new Date}`)
