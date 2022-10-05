@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "luxon": "^2.3.1",
+    "mongod": "^2.0.0",
+    "mongodb": "^4.10.0",
+    "puppeteer": "^13.7.0",
+    "ru-weekdays": "^1.0.0",
+    "telegraf-session-local": "^2.1.0",
+    "telegraf-session-mongodb": "^2.0.2"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "nodemon --ignore data/ src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "telegraf": "^4.7.0"
+  },
+  "name": "nksebot",
+  "version": "1.0.0",
+  "description": "telegraf bot for nkse",
+  "main": "index.js",
+  "keywords": [
+    "bot",
+    "telegraf",
+    "nkse"
+  ],
+  "author": "fenix1851",
+  "license": "ISC"
+}
